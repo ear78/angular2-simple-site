@@ -8,7 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component'
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component'
 import { HomeComponent } from './components/pages/home.component'
 import { AboutComponent } from './components/pages/about.component'
-
+import {routing} from './app.routing'
 
 // MAIN MODULE FOR THE INDEX PAGE //////////////
 @NgModule({
@@ -20,7 +20,7 @@ import { AboutComponent } from './components/pages/about.component'
     AboutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, routing
   ],
   providers: [],
   bootstrap: [AppComponent]
